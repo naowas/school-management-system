@@ -1,0 +1,102 @@
+body {
+  padding-top: 54px;
+    background-color:azure
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.navbar{
+    background-color: teal !important;
+    text-decoration-color: white !important;
+    max-height: 70px;
+}
+.py-5{
+    background-color: teal !important;
+    padding-right: 50px;
+    height: auto;
+}
+
+.test-img{
+    float: right;
+    width:200px;
+    height:170px;
+    padding-left:50px;
+    padding-bottom: 20px;
+    
+}
+#prin-msg{
+    font-family:cursive;
+}
+
+#principal-msg{
+    height: 300px;
+}
+#notice-board{
+    height: 300px;
+}
+#logo{
+height: 67px;
+}
+.card{
+    background-color: transparent;
+    border:0;
+}
+#im{
+    width: 680px;
+     height:  380px;
+    padding: 30px;
+    padding-top: 60px;
+}
+.notice-btn{
+    padding-left: 13em;
+    padding-bottom: 30em;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+    font-size: 17px;
+    padding-bottom: 17px;
+   
+}
+.form-inline{
+    padding-right: 50px;
+}
+.card-header{
+    border: 0;
+
+    background-color: teal;
+}
+.notice-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+.py-5-not{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: teal;
+   color: white;
+   text-align: center;
+
+}
+
+#role-row{
+    padding-left: 200px;
+}

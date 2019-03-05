@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+  background-color: whitesmoke;
+  
+}
+#admin{
+  /*margin-top: 50px;*/
+  /*background:#CECECE;*/
+  /*width:1050px;*/
+  padding-top:14px;
+  padding-left:12px;
+  padding-right:12px;
+  padding-bottom:14px;
+  height:auto;
+  border-radius:15px;
+  /*box-shadow:#0CF 2px 2px 2px 2px; use for 3D div */
+}
+@media(min-width:768px) {
+  #admin {
+    height: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media(min-width:768px) {
+  .side-nav {
+  position: absolute;
+  top: 51px;
+  left: 228px;
+  width: 225px;
+  margin-left: -225px;
+  border: none;
+  border-radius: 0;
+  overflow-y: auto;
+  
+}
+
+.side-nav>li>a {
+  width: 225px;
+  color: #fff !important;
+}
+
+.side-nav li a:hover,
+.side-nav li a:focus {
+  outline: none;
+  background-color:darkturquoise !important;
+  }
+}
+
+.side-nav>li>ul {
+  padding: 0;
+}
+.side-nav>li>ul>li>a {
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #999;
+}
+
+.side-nav>li>ul>li>a:hover {
+  color: #337AB7;
+}
+#wrapper {
+    padding-left: 0;
+}
+@media (min-width: 768px) {
+	#wrapper {
+  padding-left: 225px;
+  }
+}
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+}
+.login_form {
+	margin-top: 220px;
+	background-color: #fefeff;
+	border-radius: 5px;
+  box-shadow: 1px 2px 23px #000000;
+  padding: 20px;
+}
+.logo_div {
+	border-left: 15px solid #427CAA;
+}
+.login_form h4 {
+	font-weight: bold;
+}
+.left {
+  float: left;
+  margin-left: 10px;
+}
+.right {
+  float: right;
+  margin-right: 30px;
+}
+.margin-10t {
+  margin-top: 10px !important;
+}
+.margin-20b {
+  margin-bottom: 20px;
+}
+.margin10r {
+    margin-right: 10px;
+}
+.margin20L {
+    margin-left: 20px;
+}
+.entry-head {
+  overflow: hidden;
+}
+.form-style {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.view-form-style {
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+@media(max-width:768px) {
+    .view-form-style {
+        margin-left: 0;
+    }
+}
+.white-color {
+    color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.main-widget {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.infographic-box {
+    padding: 20px;
+}
+.main-box {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+.infographic-box i {
+    font-size: 2.4em;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+    color: #fff;
+}
+.red-bg {
+    background-color: #e74c3c!important;
+}
+.emerald-bg {
+    background-color: #3498db!important;
+}
+.green-bg {
+    background-color: #2ecc71!important;
+}
+.yellow-bg {
+    background-color: #f1c40f!important;
+}
+.orange-bg {
+    background-color: #f19e64 !important;
+}
+.infographic-box .headline {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: right;
+}
+.infographic-box .value {
+    font-size: 2.1em;
+    font-weight: 600;
+    margin-top: -5px;
+    display:grid;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 9px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inherit;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
